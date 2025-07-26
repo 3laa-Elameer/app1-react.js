@@ -113,3 +113,14 @@ input:focus {
 .nav-font-size{
     font-size: 1rem !important;
 }
+.layer{
+    position:absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.portfolio-item:hover .layer {
+    opacity: 1;
+}
