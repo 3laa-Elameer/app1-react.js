@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import img1 from '../assets/poert1.png'
+import img2 from '../assets/port2.png'
+import img3 from '../assets/port3.png'
 
 export default function Portfolio() {
     useEffect(() => {
@@ -24,7 +27,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6">
             <div className="portfolio-item">
               <img
-                src="/src/assets/poert1.png"
+                src={img1}
                 alt="Portfolio Item"
                 className="img-fluid"
               />
@@ -34,7 +37,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6">
             <div className="portfolio-item">
               <img
-                src="/src/assets/port2.png"
+                src={img2}
                 alt="Portfolio Item"
                 className="img-fluid"
               />
@@ -44,7 +47,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6">
             <div className="portfolio-item">
               <img
-                src="/src/assets/port3.png"
+                src={img3}
                 alt="Portfolio Item"
                 className="img-fluid"
               />
@@ -54,7 +57,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6">
             <div className="portfolio-item">
               <img
-                src="/src/assets/poert1.png"
+                src={img1}
                 alt="Portfolio Item"
                 className="img-fluid"
               />
@@ -64,7 +67,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6">
             <div className="portfolio-item">
               <img
-                src="/src/assets/port2.png"
+                src={img2}
                 alt="Portfolio Item"
                 className="img-fluid"
               />
@@ -74,7 +77,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6">
             <div className="portfolio-item">
               <img
-                src="/src/assets/port3.png"
+                src={img3}
                 alt="Portfolio Item"
                 className="img-fluid"
               />
