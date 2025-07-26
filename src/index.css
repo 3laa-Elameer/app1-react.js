@@ -1,0 +1,115 @@
+.bg-main {
+    background-color: #2C3E50;
+}
+
+.bg-secondry {
+    background-color: #1ABC9C;
+}
+
+.text-main {
+    color: #1ABC9C;
+}
+
+.about {
+    height: 75vh;
+    padding-top: 10rem;
+}
+
+
+.active {
+    border: 2px solid #1ABC9C !important;
+    background-color: #1ABC9C !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+
+}
+
+.text-white-important {
+    color: #fff !important;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #2C3E50;
+    top: 75px;
+    left: 40%;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    background-color: #2C3E50;
+    width: 100px;
+    height: 5px;
+    top: 75px;
+    right: 40%;
+}
+
+.extra-padding {
+    padding: 5rem 0 !important;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #1ABC9C !important;
+
+}
+
+.hidden-label {
+    transform: translateY(50px) !important;
+}
+
+.label-transition {
+    transition: transform 0.5s !important;
+}
+
+.starIcon::after {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    left: 40px;
+}
+
+.starIcon::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    right: 40px;
+}
+
+#dark-star::after {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 4px;
+    background-color: #2C3E50;
+    top: 50%;
+    left: 40px;
+}
+
+#dark-star::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 4px;
+    background-color: #2C3E50;
+    top: 50%;
+    right: 40px;
+}
+
+.somthe-scroll {
+    transition: all 0.5s;
+}
+.nav-font-size{
+    font-size: 1rem !important;
+}
